@@ -12,9 +12,14 @@ public class MouseManager : MonoBehaviour
     public Rigidbody slimeRigidBody;
 
 
+    public Vector3 originalSlimePosition;
+    public Quaternion originalSlimeRotation;
+
     // Start is called before the first frame update
     void Start()
     {
+        originalSlimePosition = slimeTransform.position;
+        originalSlimeRotation = slimeTransform.rotation;
         
     }
 
@@ -28,11 +33,13 @@ public class MouseManager : MonoBehaviour
         if (Input.GetMouseButton(0))
         {
             Vector3 mouseDifference = clickStartLocation - Input.mousePosition;
+            Debug.Log(mouseDifference);
             launchVector = new Vector3(
-                mouseDifference.x * 1f,
-                mouseDifference.y * 1.2f,
-                mouseDifference.z * 1.5f
+                mouseDifference.y * 1f,
+                mouseDifference.y * 0.7f,
+                mouseDifference.x * -1.5f
                );
+            slimeTransform.position = originalSlimePosition - launchVector / 400;
             launchVector.Normalize();
             //slimeTransform.position = originalSlimePosition - launchVector / 400; 
         }
