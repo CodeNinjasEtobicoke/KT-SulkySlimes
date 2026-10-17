@@ -28,19 +28,21 @@ public class MouseManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            slimeRigidBody.isKinematic = true;
             clickStartLocation = Input.mousePosition;
+            launchVector = new Vector3(0f, 0f, 0f);
         }
         if (Input.GetMouseButton(0))
         {
             Vector3 mouseDifference = clickStartLocation - Input.mousePosition;
-            Debug.Log(mouseDifference);
             launchVector = new Vector3(
                 mouseDifference.y * 1f,
                 mouseDifference.y * 0.7f,
-                mouseDifference.x * -1.5f
+                mouseDifference.x * -0.5f
                );
             slimeTransform.position = originalSlimePosition - launchVector / 400;
             launchVector.Normalize();
+            Debug.Log(launchVector);
             //slimeTransform.position = originalSlimePosition - launchVector / 400; 
         }
         if (Input.GetMouseButtonUp(0))
