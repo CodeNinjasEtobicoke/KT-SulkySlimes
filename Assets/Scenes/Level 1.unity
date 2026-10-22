@@ -1119,7 +1119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clickStartLocation: {x: 0, y: 0, z: 0}
   launchVector: {x: 0, y: 0, z: 0}
-  launchForce: 825
+  launchForce: 750
   slimeTransform: {fileID: 797734230}
   slimeRigidBody: {fileID: 797734229}
   originalSlimePosition: {x: 0, y: 0, z: 0}
@@ -1374,10 +1374,10 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8703520776491220477, guid: d9cb743b0a3cd534d914c3021e8c4020, type: 3}
---- !u!114 &1078855658
+--- !u!114 &1078855663
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2256,15 +2256,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7818748998519835743, guid: 9c6032bc7284a5146a9b61081bf3c510, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.3
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 7818748998519835743, guid: 9c6032bc7284a5146a9b61081bf3c510, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.3
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 7818748998519835743, guid: 9c6032bc7284a5146a9b61081bf3c510, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 7818748998519835743, guid: 9c6032bc7284a5146a9b61081bf3c510, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2306,6 +2306,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.946
       objectReference: {fileID: 0}
+    - target: {fileID: 7818748998519835743, guid: 9c6032bc7284a5146a9b61081bf3c510, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8992256983132845872, guid: 9c6032bc7284a5146a9b61081bf3c510, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2322,7 +2326,7 @@ PrefabInstance:
       addedObject: {fileID: 1078855652}
     - targetCorrespondingSourceObject: {fileID: 7478814756364031717, guid: 9c6032bc7284a5146a9b61081bf3c510, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1078855658}
+      addedObject: {fileID: 1078855663}
   m_SourcePrefab: {fileID: 100100000, guid: 9c6032bc7284a5146a9b61081bf3c510, type: 3}
 --- !u!1001 &2053394496
 PrefabInstance:
