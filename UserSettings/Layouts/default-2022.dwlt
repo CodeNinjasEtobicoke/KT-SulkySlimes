@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 1781
+  controlID: 49
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -95,8 +95,8 @@ MonoBehaviour:
     y: 0
     width: 288
     height: 503.2
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 1782
+  controlID: 50
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 1783
+  controlID: 51
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -359,7 +359,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/BTM_Assets/BTM_Items_Gems/Prefabs
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -367,16 +367,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/BTM_Assets/BTM_Items_Gems/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Unity\KT-SulkySlimes
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 36230000
-    m_LastClickedID: 9014
-    m_ExpandedIDs: 000000001e230000222300009466000096660000986600009a6600009c660000ffffff7f
+    scrollPos: {x: 0, y: 269.40002}
+    m_SelectedIDs: e0610000
+    m_LastClickedID: 25056
+    m_ExpandedIDs: 000000009c6100009e610000a0610000a2610000a4610000a6610000d8610000dc610000de6100006c640000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -404,7 +404,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000022230000926600009466000096660000986600009a6600009c6600009e660000ffffff7f
+    m_ExpandedIDs: 000000009c6100009e610000a0610000a2610000a4610000a6610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -456,7 +456,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 260.2}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
@@ -501,7 +501,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 859.2001
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -544,9 +544,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 26860000
-      m_LastClickedID: 34342
-      m_ExpandedIDs: 043dffff8accfffff6cdffff8cd0ffff56d2ffff60d4ffff2ad6ffff50d8fffff2dafffffcdaffff42ddffff42fbfffffa7a00001e7b0000
+      m_SelectedIDs: b4920000
+      m_LastClickedID: 37556
+      m_ExpandedIDs: 929bffff1ea1ffff28a3ffffe2acffff14afffffdeb1ffff10b4ffff18b7ffff4ab9ffff56c5ffff92c8ffff04cdffff0ecfffff40d1ffff6cd3ffff98d5ffff20f1ffff2cf3fffffaf5fffffef7ffff12fbfffff86d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -900,9 +900,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 78.55037, y: 0.78435075, z: 11.768487}
+    m_Target: {x: -0.32129472, y: 8.288451, z: 2.6800022}
     speed: 2
-    m_Value: {x: 78.55037, y: 0.78435075, z: 11.768487}
+    m_Value: {x: -0.32129472, y: 8.288451, z: 2.6800022}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -948,13 +948,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.025299663, y: -0.6717555, z: 0.023017861, w: -0.740013}
+    m_Target: {x: -0.033616025, y: -0.6634425, z: 0.029909236, w: -0.7469064}
     speed: 2
-    m_Value: {x: -0.025299098, y: -0.67174053, z: 0.023017349, w: -0.7399965}
+    m_Value: {x: -0.033615187, y: -0.663426, z: 0.029908491, w: -0.7468878}
   m_Size:
-    m_Target: 49.795586
+    m_Target: 2.0241115
     speed: 2
-    m_Value: 49.795586
+    m_Value: 2.0241115
   m_Ortho:
     m_Target: 0
     speed: 2
